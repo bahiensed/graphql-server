@@ -1,0 +1,45 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "Just a simple GraphQL server from zero to villain",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahiensed/graphql-server.git"
+  },
+  "keywords": [
+    "Node",
+    "TypeScript",
+    "GraphQL",
+    "Apollo"
+  ],
+  "author": "Douglas Bahiense @bahiensed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahiensed/graphql-server/issues"
+  },
+  "homepage": "https://github.com/bahiensed/graphql-server#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "eslint-plugin-react": "^7.36.1",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "@graphql-tools/mock": "^9.0.4",
+    "@graphql-tools/schema": "^10.0.6",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6"
+  }
+}
