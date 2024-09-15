@@ -1,6 +1,6 @@
 export const mocks = {
   Query: () => ({
-    tracksForHome: () => [...new Array(6)],
+    tracksForHome: () => [...new Array(4)],
   }),
   Track: () => ({
     id: () => "track_01",
