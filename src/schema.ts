@@ -1,12 +1,13 @@
+//https://www.apollographql.com/tutorials/lift-off-part1/04-building-our-schema
 import gql from "graphql-tag";
- 
+
 export const typeDefs = gql`
   type Query {
-    "Get tracks array for homepage grid"
+    "Get tracks for homepage grid"
     tracksForHome: [Track!]!
   }
    
-  "A track is a group of Modules that teaches about a specific topic"
+  "A track is a group of modules that teaches about a specific topic"
   type Track {
     id: ID!
     "The track's title"
