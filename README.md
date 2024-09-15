@@ -1,7 +1,14 @@
 # GraphQL Server  
 Just a simple GraphQL server from hero to villain
 
-## Groundwork
+## Fast paced installation
+```bash
+git clone https://github.com/bahiensed/graphql-server
+npm i
+npm run dev
+```
+
+## From zero to villain
 ### create project folder
 ```bash
 mkdir graphql-server
@@ -106,15 +113,16 @@ npx tsc --init
 }
 ```
 
-### install GraphQL: Syntax Highlighting in VSCodium
+### install "GraphQL: Syntax Highlighting" in VSCodium
 ```bash
 ext install GraphQL.vscode-graphql-syntax
 ```
 
-## Hands-on
+## Build schema and create mocked data
+https://www.apollographql.com/tutorials/lift-off-part1/04-building-our-schema  
 
 
-## run project
+## Run Project
 ### in development:  
 ```bash
 npm run dev
