@@ -13,6 +13,7 @@ async function startApolloServer() {
       mocks
     }),
   });
+
   const { url } = await startStandaloneServer(server);
   console.log(`
     🚀  Server is running!
